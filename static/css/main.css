@@ -1,0 +1,91 @@
+body {
+  background-color: #444;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #444;
+}
+
+/*
+ * Formatting the header area
+ */
+
+header {
+  background-color: #444;
+  height: 35px;
+  width: 100%;
+  opacity: 1;
+  margin-bottom: 10px;
+}
+
+header h1.logo {
+  margin: 0;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  float: left;
+}
+
+header h1.logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+ * Center the body content
+ */
+
+.container {
+  width: 800px;
+  margin: 0px auto;
+}
+
+div.home {
+  padding: 10px 0 30px 0;
+  background-color: #E6E6FA;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
+div.about {
+  padding: 10px 0 30px 0;
+  background-color: #E6E6FA;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-top: 10px;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 100;
+  margin-top: 0px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #999;
+}
+
+.menu {
+  float: right;
+  margin-top: 8px;
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu li + li {
+  margin-left: 35px;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+}
